@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+@font-face {
+    font-family: a;
+    src: url(./Inter-LightBETA.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./Inter-Regular.ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./SaolDisplay-Light.ttf);
+}
+@font-face {
+    font-family: d;
+    src: url(./SaolDisplay-LightItalic.ttf);
+}
+@font-face {
+    font-family: e;
+    src: url(./SaolDisplay-Medium.ttf);
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    height: 180vh;
+    width: 100vw;
+    position: relative;
+    background-color: #fff;
+}
+#page>h1{
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: c;
+    font-size: 13vw;
+    font-weight: 400;
+    line-height: .8;
+}
+#page>h1>span{
+    color: #bf1826;
+    font-family: d;
+}
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 5%;
+    height: 85vh;
+    width: 100vw;
+}
+.card-page{
+    height: 100%;    
+    width: 20%;
+    overflow: hidden;
+}
+.card-page-image>img{
+    height: 120%;
+    width: 100%;
+    object-fit: cover;
+}
+.c1{
+    margin-top: 6vw;
+}
+.card-page-image{
+    position: relative;
+    top: 0%;
+    overflow: hidden;
+    height: 70%;
+    width: 100%;
+}
+.card-page>h1{
+    margin-top: 2vw;
+    font-family: a;
+    font-size: 2vw;
+}
+.card-page>h3{
+    margin: .5vw;
+    font-family: a;
+    color: #00000057;
+}
